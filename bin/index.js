@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-const chalk = require("chalk");
-const boxen = require("boxen");
 const yargs = require("yargs");
 const readline = require('readline').createInterface({
     input: process.stdin,
@@ -140,19 +138,3 @@ readline.question(`Masukan No Ujian : `, no_ujian => {
         }
     }
 });
-
-
-// console.log(`Hello, ${options.n}!`)
-
-// const greeting = chalk.white.bold(`Hello, ${options.name}!`);
-
-// const boxenOptions = {
-//     padding: 1,
-//     margin: 1,
-//     borderStyle: "round",
-//     borderColor: "green",
-//     backgroundColor: "#555555"
-// };
-// const msgBox = boxen(greeting, boxenOptions);
-
-// console.log(msgBox);

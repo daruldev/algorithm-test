@@ -13,9 +13,6 @@
     "mulai": "./bin/index.js"
   },
   "dependencies": {
-    "boxen": "4.0",
-    "chalk": "2.4",
-    "inquirer": "^9.0.0",
     "yargs": "13.2"
   }
 }
